@@ -3,7 +3,7 @@ console.log("JavaScript Loaded");
 const loginUsername = document.querySelector(".username")
 const loginPassword = document.querySelector(".password")
 loginPassword.addEventListener('click', function(event) {
-    if(event.keyCode == `13`) {
+    if(event.keyCode === 13) {
         let name = localStorage.getItem('Naam')
         let password = localStorage.getItem('Wachtwoord')
         if (loginUsername.value == name && loginPassword.value == password) {
