@@ -31,6 +31,10 @@ body {
     font-weight: 700;
 }
 
-.info {
+.right-info {
     color: lightgreen;
+}
+
+.wrong-info {
+    color: red;
 }
